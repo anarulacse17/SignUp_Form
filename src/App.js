@@ -65,6 +65,7 @@ class App extends Component {
           </span>
         ) : (
           <div className="container contain">
+            
         <div className={'style'}>
           <p>SIGN UP</p>
           <div className={'text'}>
@@ -78,10 +79,11 @@ class App extends Component {
           uiConfig={this.uiConfig}
           firebaseAuth={firebase.auth()}
         />
+              <h6>or</h6>
         <form onSubmit={this.submitHandler}>
         <input type="text"placeholder="First Name"/><br/>
         <input type="text"placeholder="Last Name"/><br/>
-        <input type="email" name="email" value={email} placeholder="Email Address" onChange={(event)=>this.setState({email:event.target.value})}br/>
+        <input type="email" name="email" value={email} placeholder="Email Address" onChange={(event)=>this.setState({email:event.target.value})}/><br/>
         <input type="Password" name="password" onChange={(event)=>this.setState({password:event.target.value})} placeholder="Password"
          type={isPasswordShown ? "text" : "password"}
          name="pass"/><i className="fa fa-eye password-icon"
@@ -89,8 +91,7 @@ class App extends Component {
          <p className="desc">By clicking on the Sign Up, you agree to our <span className="highlight"><a href="">Terms of Use</a></span> and our <span className="highlight"><a href="">Privacy Policy.</a></span></p><br/>
          <button className="btn">Sign Up</button>
         </form>
-       
-      </div>
+        </div>
       </div>
         )}
       </div>
