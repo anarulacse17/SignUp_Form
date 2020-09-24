@@ -11,7 +11,7 @@ Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
-### `Firebase App Project 
+### `Firebase App Project`
  make a firebase project and turn on sign in methods for facebook and google also get the app id from 
  facebook developers site by creating a app there also
  otherwise the project button won't work
