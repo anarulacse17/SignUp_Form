@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### `npm install`
 run npm install command and all the dependencies used will be installed on your system
 
+### `Firebase App Project`
+ Make a firebase project and turn on sign in methods for facebook and google 
+ and replace the apikey and authDomain with yours which you will get from user and terms
+ options at the firebase console
 
 ### `npm start`
 
@@ -11,10 +15,7 @@ Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
-### `Firebase App Project`
- make a firebase project and turn on sign in methods for facebook and google also get the app id from 
- facebook developers site by creating a app there also
- otherwise the project button won't work
+
  
 ### `npm run build`
 
